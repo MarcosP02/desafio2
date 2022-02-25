@@ -1,0 +1,829 @@
+/*inicio*/
+*
+{
+padding: 0;
+margin: 0;
+}
+
+/*logo*/
+
+.logoInicio{
+    width: 10%;
+
+}
+
+/*header incio*/
+.bodyInicio{
+   
+    background-color: rgb(73, 71, 71);
+}
+
+.headerInicio{
+   
+    background-color: rgb(16, 169, 240);
+    padding: 20px;
+ 
+}
+/*logo2 Inicio*/
+.logo1Productos{
+    background-color:rgb(16, 169, 240) ;
+ 
+    
+}
+.logo2Productos{
+   width: 20%;
+}
+
+/*H1 Inicio*/
+.h1Inicio{
+
+    color: blue;
+    font-size: 50px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+/* Nav Inicio*/
+.navInicio{
+  background-color:rgb(16, 169, 240) ;
+ 
+ font-family:  'Dongle', sans-serif;
+ font-family: 'Island Moments', cursive;
+ 
+
+}
+/* Nav Inicio*/
+.navInicio li{
+    list-style: none;
+    border: 5px solid rgba(9, 172, 248, 0.856) ;
+    border-bottom: 5px solid rgb(23, 20, 220);
+    padding: 5px;
+    border-radius: 50px;
+ 
+}
+/* Nav Inicio*/
+
+.navInicio ul{
+    display: flex;
+   
+   justify-content: center;
+
+
+}
+
+/* Nav Inicio*/
+.navInicio a{
+    color: rgb(8, 24, 248);
+   text-decoration: none;
+
+   
+}
+/* Nav Inicio*/
+.navInicio ul :hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* Main Inicio */
+.h2Inicio{
+    text-align: center;
+    color: rgb(234, 243, 243);
+    background-color: rgba(0, 255, 255, 0.089);
+font-size: 30px;
+padding: 10px;
+}
+/* h3 Inicio*/
+.h3Inicio{
+color: rgb(246, 245, 253);
+font-size: 25px;
+padding: 50px;
+text-align: center;
+background-color: rgb(73, 71, 71);
+}
+
+
+.div1Inicio{
+    display: flex;
+    
+}
+/*seccion Inicio*/
+.seccion1Inicio {
+width: 100%;
+left: 200%;
+
+
+}
+.img1Inicio{
+    width: 99.6%;
+    border: 2px solid ; 
+}
+
+/*footer Inicio */
+
+.footerInicio{
+   
+    background-color: rgb(73, 71, 71);
+    padding: 20px;
+text-align: center;
+color: white;
+
+}
+
+
+
+/* logo footer inicio*/
+.logoifInicio{   
+background-color:rgb(73, 71, 71) ;
+
+
+
+}
+
+.instaInicio{
+    width: 100px;
+}
+
+.faceInicio{
+    width: 80px; 
+        
+}
+
+@media screen and (max-width : 390px ){
+    .headerInicio{
+        width: 100%;
+    }
+    .navInicio {
+        width: 102%;
+    }
+.navInicio li{
+   justify-content: start;
+padding: 1px;
+}
+.mainInicio{
+    width: 102%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Contactos*/
+/*logo1 COntactos*/
+.logoContacto{
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*nav contactos*/
+.bodyContacto{
+    width: 100%;
+}
+.navContacto{
+    background-color: rgb(229, 245, 4);
+
+    width: 100%;
+    
+}
+/*logo2 Inicio*/
+.logo2Productos{
+    background-color:rgb(229, 245, 4) ;
+ 
+    
+}
+.navContacto ul{
+ 
+    display: flex;
+    justify-content: center;
+    
+}
+.navContacto li{   
+list-style: none;
+    border: 5px solid rgb(229, 245, 4) ;
+    border-bottom: 5px solid yellow;
+   
+    border-radius: 50px; 
+  
+    }
+.navContacto ul :hover{
+    transform: scale(1.2);
+}
+.navContacto a{
+    text-decoration: none;
+    color: rgb(172, 136, 39);
+    padding: 2px;
+ }
+
+.headerContacto{
+    background-color: rgb(229, 245, 4);
+    text-align: center;
+    
+
+}
+
+
+
+/*h1 Contacto*/
+.h1Contacto{
+color: rgb(18, 19, 18);
+font-size: 50px;
+display: flex;
+justify-content: center ;
+color: rgb(241, 144, 15);
+
+}
+
+/*main contacto*/
+
+.mainContacto{
+background-color: rgba(191, 243, 4, 0.603);  
+ width: 100%;
+}
+
+
+/*seccion 1*/
+.seccion1Contacto{
+   
+    background-color:  rgb(191, 243, 4);
+    width: 100%;
+
+}
+/*h2 Contacto*/
+
+.h2Contacto{
+        background-color: green;
+        padding: 30px;
+        text-align: start;
+        color: rgb(243, 243, 243);  
+       
+      
+}
+/*p1 Contacto*/
+.p1Contacto{
+    padding: 50px;
+    background-color: honeydew;
+    border:5px solid green ;
+}
+
+/*seccion2 Contacto*/
+.seccion2Contacto{
+    width: 100%;
+}
+/*h21Contacto*/
+
+.h21Contacto{
+    background-color: green;
+    color:rgb(247, 250, 245) ; 
+    text-align: center;        
+    font-size: 30px;  
+    padding: 30px;
+} 
+/*p2 Contacto */
+.p2Contacto{
+    background-color: white;
+    padding: 50px;
+         
+}
+
+/*formulario Contacto*/
+
+.formContactos{
+    padding: 20px;
+    background-color: rgb(14, 14, 13);
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+/*Footer Contacto*/
+
+.footerContactos{
+    background-color:  rgb(229, 245, 4);
+    padding: 20px;
+    text-align: center;
+
+}
+/*logo Contactos*/
+
+.logoifContacto{
+text-align: center;
+background-color:  rgb(229, 245, 4);
+
+}
+
+
+
+
+
+
+/*Nuestros locales*/
+.bodyNuestros{
+    width: 100%;
+    left: 100px;
+
+}
+
+.navNuestros ul{
+    
+    display: flex;
+    justify-content: center;
+    background-color:rgb(14, 209, 69) ;
+}
+.navNuestros li{   
+
+   list-style: none;
+    border-bottom: 5px solid rgb(43, 255, 0);
+    padding: 5px;
+    border-radius: 50px; 
+    }
+.navNuestros ul :hover{
+    transform: scale(1.2);
+
+}
+
+.navNuestros a{
+    text-decoration: none;
+    color: yellow;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /*logo2 Contactos*/
+.logo4Productos{
+    background-color:rgb(14, 209, 69) ;
+ 
+    text-align: start;
+}
+.logo5Productos{
+    background-color:rgb(14, 209, 69) ;
+   width: 100%;
+}
+
+
+ 
+ /*header Nuestro*/
+
+.headerNuestros{
+    padding: 20px;
+    background-color:rgb(14, 209, 69) ;
+    text-align: center;
+}
+.h1Nuestros{
+    background-color: rgb(14, 209, 69);
+    color: rgb(7, 252, 7);
+    font-size: 50px;
+   
+}
+
+
+/*main Nuestro*/
+.mainNuestros{
+    width: 100%;
+}
+/*seccion 1 Nuestro*/
+.seccion1Nuestros{
+    background-color: green;    
+    width: 100%;
+}
+/*logo Nuestro*/
+.logoNuestros{
+    width: 10%;
+  
+}
+
+/*h2  Nuestros*/
+.h2Nuestros{
+    background-color: greenyellow;
+    color:white;
+    text-align: center;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*p1 Nuestros*/
+.p1Nuestros{
+    color: yellow;
+    padding: 2px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+/*Seccion Imagenes*/
+
+.seccionImg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+
+
+.img1N{
+    width: 100%;
+ 
+}
+
+/*footer Nuestros Locales*/
+
+
+.footerNuestros{
+    background-color: rgb(14, 209, 69);
+    text-align: center;
+    color: rgb(5, 5, 5);
+    padding: 20px;
+}
+.p4Nuestros{
+    color: blanchedalmond;
+}
+
+/*logo Nuestros*/
+
+.logoifNuestro{
+    text-align: center;
+    background-color:  rgb(14, 209, 69);
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Nosotros*/
+/*navegador Nosotros*/
+
+
+.navNosotros{
+    background-color: rgb(184, 61, 186);
+}
+
+
+
+.navNosotros{
+    background-color: rgb(184, 61, 186 );
+}
+
+.navNosotros ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.navNosotros li{   
+
+   
+    border-bottom: 5px solid rgb(162, 0, 255);
+    padding: 5px;
+    border-radius: 50px; 
+    }
+.navNosotros ul :hover{
+    transform: scale(1.2);
+}
+
+.navNosotros a{
+    text-decoration: none;
+    color: rgb(85, 2, 57);
+  
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /*header Nosotros*/
+
+ .headerNosotros{
+    background-color:  rgb(184, 61, 186);
+    padding: 20px;
+    text-align: center;
+}
+.h1Nosotros{
+    
+    color: rgb(129, 3, 129);
+    font-size: 60px;
+   
+}
+/*logo Nosotros*/
+.logoNosotros{
+    width: 10%;
+
+  
+}
+
+/*main Nosotros*/
+.mainNosotros{
+    background-color: rgba(122, 7, 253, 0.596);
+   
+}
+/*h2 nosotros*/
+
+.h2Nosotros{
+    
+    padding: 20px;
+    text-align: center;
+    color: rgb(151, 3, 151);
+    font-size: 40px;
+    font-family: cursive;   
+    border: 10px solid;
+
+}
+/*p1 Nosotros*/
+
+.p1Nosotros{
+    padding: 20px;
+    background-color: rgb(151, 3, 151);
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/*h4 Nosotros*/ 
+
+.h4Nosotros{
+    color: darkviolet;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.p2Nosotros{
+    padding: 40px;
+    text-align: center;
+    color: rgb(151, 3, 151);   
+    font-family: cursive;   
+    border: 10px solid rgb(151, 3, 151);
+
+}
+/*footer Nosotros*/
+.footerNosotros{
+    padding: 20px;
+    background-color: rgb(184, 61, 186);
+    text-align: center;
+    color: violet;
+    color: blanchedalmond;
+}
+.p3Nosotros{
+    color: blanchedalmond;
+}
+/*logo footer Nosotros*/
+
+
+.logoifNosotros{
+    text-align: center;
+    background-color:  rgb(184, 61, 186);
+    
+    }
+
+
+
+
+
+
+
+/*Productos */
+.bodyProductos{
+    width: 100%;
+}
+
+.navProductos{
+    background-color: rgb(233, 58, 64);
+    width: 100%;
+}
+
+
+.navProductos ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.navProductos ul :hover{
+    transform: scale(1.2);
+
+}
+
+.navProductos li{   
+
+   
+    border-bottom: 5px solid rgb(204, 21, 67);
+    padding: 5px;
+    border-radius: 50px; 
+    }
+   
+    
+.navProductos a{
+    text-decoration: none;
+    color: rgba(85, 2, 9, 0.932);
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ /*header Productos*/
+
+ .headerProductos{
+    background-color: rgb(233, 58, 64);
+    padding: 20px;
+    text-align: center;
+    
+}
+.h1Productos{
+    
+    color: rgb(138, 13, 44);
+    font-size: 60px;
+   
+}
+/*logo Nuestro*/
+.logoProductos{
+    width: 10%;
+  
+}
+/* productos*/
+
+.h2Productos{
+background-color: rgb(3, 0, 0);
+color: red;
+padding: 40px;
+font-size: 50px;
+text-align: center;
+}
+/*logo 2 Productos*/
+
+.logo1Productos{
+    width: 30%;
+  
+  
+    
+}
+/*imagenes productos*/
+
+.seccionProductos{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}
+
+
+.img1{
+    width: 100%;
+ 
+border: 1px solid black;
+}
+.img1 :hover{
+    transform: scale(1.5);
+    }
+
+.img2{
+    border: 1px solid black;
+    width: 100%;
+   
+ }
+ .img2 :hover{
+animation-name: img2;    
+animation-iteration-count: infinite ;
+animation-duration: 2s;
+animation-timing-function: linear;
+
+}
+@keyframes img2{
+    from {
+        transform: rotateY(0);
+
+    }
+    to{
+transform: rotateY(360deg);
+    }
+
+}
+ .img3{
+    border: 1px solid black;
+    width: 100%;
+    
+ }
+ .img3 :hover{
+    animation-name: img3;    
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    }
+    @keyframes img3{
+        from {
+            transform: scale(0.6);
+    
+        }
+        to{
+    transform: scale(1);
+        }
+    
+    }
+ .img4{
+    border: 1px solid black;
+    width: 100%;
+   
+ }
+ .img4 :hover{
+    animation-name: img4;    
+    animation-iteration-count: infinite ;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    
+    }
+    @keyframes img4{
+       10% {
+            transform: scale(0.5);
+        }
+       50%{
+           transform: scale(1.2);
+       }
+       10%{
+           transform: scale(0.9);
+       }
+      
+    }
+ 
+ .img5{
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img5 :hover{
+    transform: scale(1.5);
+    }
+ .img6{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img6 :hover{
+    transform: scale(1.5);
+    }
+ .img7{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img7 :hover{
+    transform: scale(1.5);
+    }
+ .img8{
+   
+    width: 100%;
+    border: 1px solid black;
+ }
+ .img8 :hover{
+    transform: scale(1.5);
+    }
+ .img9{
+    border: 1px solid black;
+    width: 100%;
+    
+ }
+ .img9 :hover{
+    transform: scale(1.5);
+    }
+
+
+ /*foooter Productos*/
+
+ 
+ .footerProductos{
+     padding:20px;
+     text-align: center;
+     background-color: black;
+     color: red;
+ }
+   
+ /*logo footer Productos*/
+
+
+.logoifProductos{
+    text-align: center;
+    background-color:  black;;
+    
+    }
